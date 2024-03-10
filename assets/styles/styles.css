@@ -1,0 +1,186 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.cabecalho-texto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#262318;
+    padding: 60px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+
+    
+
+}
+
+.lista-cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 15px;
+    list-style: none;
+    color: #805714;
+
+
+}
+#imagem-texto{
+    padding-left: 150px;
+}
+
+a{
+    padding: 15px;
+    text-decoration: none;
+    color: #805714;
+    
+}
+a:hover{
+    text-decoration: underline;
+    color: #CDC8B1;
+}
+
+#imagem-museu{
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    padding-left: 200px;
+    
+}
+
+.imagens-top{
+    padding: 10px;
+}
+
+#conteudo{
+    top: 00.1px;
+    left: 0px;
+    padding-left: 200px;
+    display: flex;
+    color: #07817E;
+    width: 5%;
+
+    
+
+}
+
+#conteudo-video{
+    padding-right: 35px;
+    padding-left: 5px;
+    top: 5px;
+}
+
+#titulo-lateral{
+    padding-left: 10px;
+}
+
+#conteudo-left{
+    position: relative;
+    top: 300px;
+    left: 945px;
+    width: 350px;
+    display: flex;
+    color: #A28257;
+    background-color: #CDC8B1;
+    height: 160px;
+    align-items: center;
+    padding-right: 5px;
+    padding-left: 20px;
+    
+
+}
+#conteudo-left-two{
+    position: relative;
+    top: 300px;
+    left: 945px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    color: #A28257;
+    background-color: #EBE7DD;
+    height: 400px;
+    align-items: center;
+    padding-right: 5px;
+    padding-left: 20px;
+    
+
+}
+
+
+#input-left{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    height: 12px;
+    padding: 5px 4px;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    outline: 0;
+    color: #111;
+    font-size: 13px;
+      }
+
+#input-left-two{
+    display: flex;
+    background-color: #fff;
+    height: 12px;
+    width: 20px;
+    padding: 3px 4px;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    outline: 0;
+    color: #111;
+    font-size: 13px;
+}
+
+.conteudo-centro-quest{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+}
+p{
+    color: #111;
+    padding: 5px;
+}
+
+
+#titulo{
+    padding: 15px;
+}
+
+
+.questionario{
+    display: flex;
+    padding: 15px;
+}
+
+#botao-lateral{
+    border: 1px solid transparent;
+    width: 250px;
+    padding: 10px;
+    background-color: #9B9271;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+}
+.conteudo-foto{
+    display: flex;
+    padding-top: 35px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+.imagen-two{
+    background-image:url(./assets/img/fundo-foto.png);
+    padding-right: 50px;
+    
+}
+#titulo-tres{
+    padding-top: 20px;
+    padding-left: 0px;
+}
