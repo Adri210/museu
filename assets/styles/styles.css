@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #F4F2EC;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 
 .cabecalho-texto{
     display: flex;
@@ -39,7 +44,7 @@ a:hover{
 main{
     position: absolute;
     top: 120px;
-    width: 100vw;
+    width: 90vw;
     
 }
 #imagem-museu{
@@ -88,11 +93,14 @@ main{
 .left-content ul li span{
     color: #805714;
     line-height: 1.6px;
+    font-size: 15px;
     
 }
 
+
 .middle-content p{
     margin-bottom: 20px;
+    font-size: 15px;
 }
 
 
@@ -114,6 +122,7 @@ main{
 .conteudo-centro-quest h3{
     color: #805714;
     margin-bottom: 10px;
+
 }
 
 .questionario{
@@ -162,9 +171,10 @@ main{
     justify-content: center;
     align-content: center;
     margin-top: 15px;
+    height: 350px;
 }
 
-.teste{
+.img-lateral{
     background-image:url("../img/fundo-foto.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -178,9 +188,38 @@ main{
 
 }
 
-.teste img{
+.img-lateral img{
     width: 75%;
     
      
+}
+
+.img-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.lista-rodape{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.texto-rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 30px;
+
+}
+
+#text-middle-rodape{
+    color: #805714;
+
 }
 
